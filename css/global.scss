@@ -1,0 +1,37 @@
+//global color 
+$primary_color: #000;
+$secondary_color: #fff;
+$first_color: #272838;
+$second_color: #F3F7F0;
+$third_color: #F6AE2D;
+$fourth_color: #62929E;
+// import scss
+@import '_mixi';
+@import '_nav';
+@import '_header';
+@import '_quem_eu_sou.scss';
+@import '_tecnologia.scss';
+@import '_jobs.scss';
+@import '_footer.scss';
+
+
+
+//reset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', 'Roboto', sem serifa;
+    background-color: $secondary_color;
+    width: 100%;
+}
+
+main, div img{
+    width: 99%;
+    margin: auto;
+}
+//rest
+

@@ -1,0 +1,64 @@
+.tecnologia {
+  margin: 25px auto;
+
+  .tec_text {
+    @include text_full_header_p_celular;
+    text-align: center;
+    margin: 15px auto;
+    padding: 15px auto;
+
+    .tec_logos_tec {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+    }
+
+
+  }
+
+  .tec_logos_tec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+      @include img_cel
+    }
+  }
+}
+
+@media screen and (min-width:768px) {
+  .tecnologia {
+    padding: 25px auto;
+    margin: 25px auto;
+  }
+
+}
+
+@media screen and (min-width:1024px) {
+
+  .tecnologia{
+    height: 300px;
+    .tec_text{
+      @include text_full;
+      color: $third_color;
+      margin: 25px auto;
+      padding: 25px auto;
+    }
+
+    .tec_logos_tec{
+
+      img{
+        @include img_table;
+        filter: grayscale(100);
+        cursor: pointer;
+        transition: all .5s;
+      }
+
+      img:hover{
+        filter: grayscale(0);
+      }
+    }
+  }
+  
+}

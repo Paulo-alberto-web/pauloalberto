@@ -1,0 +1,47 @@
+footer{
+    background-color: $primary_color;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .footer_text{
+
+        margin: 35px auto;
+        padding: 25px auto;
+
+        h2{
+            @include text_full_header_p_tablet;
+            text-align: center;
+        }
+    }
+
+    .footer_forms_cont{
+
+        .footer_cont{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .footer_forms_email{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .footer_forms_tel{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        
+        p{
+            color: $secondary_color;
+        }
+        img{
+            @include img_cel;
+        }
+    }
+}
