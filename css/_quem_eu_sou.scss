@@ -50,6 +50,7 @@
 
         .quem_eu_sou_img{
             @include card_box_desck;
+            filter: grayscale(1);
         }
         .quem_eu_sou_text{
             @include card_box_desck;

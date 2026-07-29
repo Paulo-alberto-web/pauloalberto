@@ -24,11 +24,9 @@ nav .header_logo img {
     padding: 0 20px;
     z-index: 9;
   }
-
   .nav_logo_nav {
     display: none;
   }
-
   .nav_navegaco ul {
     display: flex;
     align-items: center;
@@ -45,7 +43,6 @@ nav .header_logo img {
   .nav_navegaco ul li a a::houver {
     color: #F6AE2D;
   }
-
   .nav_navegaco {
     display: block;
   }
@@ -53,11 +50,12 @@ nav .header_logo img {
 header {
   width: 100%;
   height: 98vh;
-  background-image: url(../imagens/background_header.png);
+  background-image: url(../imagens/bg-header3.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 9px;
+  filter: grayscale(1);
 }
 header .header_text {
   position: absolute;
@@ -179,6 +177,7 @@ header .header_text p {
     width: 600px;
     height: auto;
     box-sizing: border-box;
+    filter: grayscale(1);
   }
   .quem_eu_sou .quem_eu_sou_text {
     width: 600px;
@@ -334,7 +333,6 @@ header .header_text p {
     right: 25px;
     bottom: 0;
   }
-
   footer .footer_text p {
     font-family: "Montserrat";
     font-size: 28px;
@@ -397,6 +395,7 @@ footer .footer_forms_cont img {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 body {
