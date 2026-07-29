@@ -24,9 +24,17 @@ nav .header_logo img {
     padding: 0 20px;
     z-index: 9;
   }
+<<<<<<< HEAD
   .nav_logo_nav {
     display: none;
   }
+=======
+
+  .nav_logo_nav {
+    display: none;
+  }
+
+>>>>>>> origin/main
   .nav_navegaco ul {
     display: flex;
     align-items: center;
@@ -43,6 +51,10 @@ nav .header_logo img {
   .nav_navegaco ul li a a::houver {
     color: #F6AE2D;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
   .nav_navegaco {
     display: block;
   }
@@ -50,12 +62,19 @@ nav .header_logo img {
 header {
   width: 100%;
   height: 98vh;
+<<<<<<< HEAD
   background-image: url(../imagens/bg-header3.jpeg);
+=======
+  background-image: url(../imagens/background_header.png);
+>>>>>>> origin/main
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 9px;
+<<<<<<< HEAD
   filter: grayscale(1);
+=======
+>>>>>>> origin/main
 }
 header .header_text {
   position: absolute;
@@ -177,7 +196,10 @@ header .header_text p {
     width: 600px;
     height: auto;
     box-sizing: border-box;
+<<<<<<< HEAD
     filter: grayscale(1);
+=======
+>>>>>>> origin/main
   }
   .quem_eu_sou .quem_eu_sou_text {
     width: 600px;
@@ -333,6 +355,10 @@ header .header_text p {
     right: 25px;
     bottom: 0;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
   footer .footer_text p {
     font-family: "Montserrat";
     font-size: 28px;
@@ -395,7 +421,10 @@ footer .footer_forms_cont img {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+<<<<<<< HEAD
   list-style: none;
+=======
+>>>>>>> origin/main
 }
 
 body {
